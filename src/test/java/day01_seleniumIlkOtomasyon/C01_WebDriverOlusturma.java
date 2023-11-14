@@ -15,6 +15,7 @@ public class C01_WebDriverOlusturma {
         driver.get("https://www.testotomasyonu.com/");
 
         Thread.sleep(5000);
+
         driver.manage().window().maximize();
 
         Thread.sleep(5000);
