@@ -33,7 +33,7 @@ public class C03_CassSelector {
         Thread.sleep(1000);
 
         // filtreleme yapin
-        driver.findElement(By.cssSelector("button[class='price-range-button']")).click();
+        driver.findElement(By.cssSelector(".button[class='price-range-button']")).click();
 
         // arama sonucunda urun bulunabildigini test edin
 
